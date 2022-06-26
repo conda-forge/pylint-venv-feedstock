@@ -1,5 +1,5 @@
 {% set name = "pylint-venv" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pylint-venv-{{ version }}.tar.gz
-  sha256: 6c5317a6ac703a682bc77ab5819a3b7431d6df7fac91fd53555b3f7563cbf0bd
+  sha256: 3594955502fdee83c98bfcc8c14cd615e6c7c3608aea525df84853ce79f296bf
 
 build:
   number: 0
